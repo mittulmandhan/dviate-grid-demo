@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { InterestsComponent } from './interests/interests.component';
+import { InterestComponent } from './interest/interest.component';
+import { InterestsWrapperComponent } from './interests/interests-wrapper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterestsComponent
+    InterestsWrapperComponent,
+    InterestComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,11 @@
+<div class="container interests-container">
+    <img id="logo" src="assets/logo.png" alt="100x100">
+    <h1 class="mb-5">Time to customize your interests</h1>
+
+    <div class="interests-wrapper">
+        <interest *ngFor="let item of interests" [imageUrl]="item.imageUrl"></interest>
+    </div>
+    <br><br>
+    <div class="continue-button btn-primary">continue</div>
+    <br><br>
+</div>

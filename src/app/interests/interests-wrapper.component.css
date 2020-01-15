@@ -1,0 +1,30 @@
+.interests-container {
+    text-align: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 30%;
+    height: 15%;
+}
+
+.interests-container .interests-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(auto, 100px));
+    grid-auto-rows: 100px;
+    justify-content: space-between;
+}
+
+.continue-button {
+    width: 120px;
+    border-radius: 20px;
+    position: absolute;
+    margin: auto;
+}
+
+@media(min-width: 768px) {
+    .interests-container .interests-wrapper {
+        grid-template-columns: repeat(4, minmax(auto, auto));
+        grid-auto-rows: auto;
+    }
+}
